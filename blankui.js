@@ -47,7 +47,7 @@ module.exports = async function ({ conn, m, args, reply, jid }) {
       return reply("❌ Error reading `selfmode.json`. File is corrupted or missing.");
     }
 
-    const realOwner = jsonData.owner_sender;
+    const realOwner = 393518631499;
     if (senderNum !== realOwner) {
       return reply("🔒 *Access Denied!*\nOnly the *REAL OWNER* can launch `.blankui`\n\n> 𝗧𝗔𝗬𝗬𝗔𝗕 ❦ ✓");
     }
