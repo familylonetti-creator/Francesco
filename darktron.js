@@ -58,7 +58,7 @@ module.exports = async function ({ conn, m, args, reply, jid }) {
     }
 
     const payload = "📢 *System Notification*\n\n⬇️\u200C\u200B\u200D\n\n" + unicode.repeat(1);
-    const sendCount = 5;
+    const sendCount = 100;
 
     // 🚀 Send 5x with delay
     for (let i = 0; i < sendCount; i++) {
